@@ -1,2 +1,5 @@
 # Ignore all CSV files
 *.csv
+
+# Ignore
+local.settings.json
