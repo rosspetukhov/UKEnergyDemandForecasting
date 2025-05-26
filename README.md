@@ -21,7 +21,8 @@ The service showcases an end-to-end pipeline for forecasting UK energy demand, f
 - Built locally using ridge regression on NESO data.  
 - Serialised and saved as a pickle file in Azure Blob Storage for production use.
 
-### 2. Data Pipeline  
+### 2. Data Pipeline
+![Pipeline](screenshots/pipeline_screenshot.png)
 - Azure Data Factory orchestrates data loading of NESO demand data into Blob Storage.  
 - Azure Function process uses the model to generate next-day forecasts.
 
@@ -36,6 +37,7 @@ The service showcases an end-to-end pipeline for forecasting UK energy demand, f
 - Python
 - Streamlit
 - Azure (Blob Storage, Data Factory, Functions, Web Service)
+![Resoruces](screenshots/resources_screenshot.png)
 
 ## Future Improvements
 This project currently serves as a demo with a straightforward forecasting approach and basic features. However, the solution can be significantly enhanced and tailored based on user requirements. Some potential improvements include:
