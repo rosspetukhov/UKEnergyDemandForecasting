@@ -6,3 +6,6 @@ azure-functions
 azure-storage-blob
 pandas
 scikit-learn
+streamlit
+matplotlib
+numpy
